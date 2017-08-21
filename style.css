@@ -1,0 +1,111 @@
+/* The colour of the background*/
+body {
+    background-color: #3a3635;
+}
+/* The style of heading 1 */
+h1 {
+    color: white;
+    font-family: "Courier New", Times, serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px;
+}
+/* The style of the paragraph's text */
+p {
+    color: white;
+    font-family: "Courier New", Times, serif;
+    font-size: 15px;
+    background-color: #333;
+    width: 895px;
+    border: 2px solid #212121;
+    padding: 50px;
+    margin: 15 px;
+}
+/* The style of the link's text */
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* The colour of the current link you're on */
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* The colour of the link when hovering over it */
+a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+/* The colour of the link once clicked */
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border: 2px solid #212121;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #00000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Makes the navigation centered */
+div {
+position:relative;
+}
+nav {
+position:absolute;
+left:50%;top:0;
+margin-left:-375px; /* negative margin equal to half the width */
+width:750px;
+list-style:none;
+}
+.myTopnav li {
+float:left;
+}
+.myTopnav a {
+display:block;
+text-align: center;
+width:150px; /* fixed width */
+text-decoration:none;
+}
+/* Makes the footer stay at the bottom*/
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #3a3635;
+  color: white;
+  font-family: "Courier New", Times, serif;
+  font-size: 15px;
+  text-align: center;
+}
